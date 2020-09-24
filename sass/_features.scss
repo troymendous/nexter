@@ -5,9 +5,11 @@
 
 	display: grid;
 	// display:grid makes this grid component also grid container
-	grid-template-columns: repeat(3, 1fr);
+	//grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 
 	grid-gap: 6rem;
+	align-items: start;
 }
 
 .feature {
@@ -22,6 +24,7 @@
 		width: 4.5rem;
 		height: 4.5rem;
 		grid-row: 1 / span 2;
+		transform: translateY(-1rem);
 	}
 
 	&__text {
