@@ -1,8 +1,10 @@
+@import "variables";
+@import "resets";
+
+@import "layout";
+
 @import "base";
 @import "typography";
-
-@import "variables";
-@import "layout";
 
 @import "sidebar";
 @import "header";
@@ -12,4 +14,3 @@
 @import "homes";
 @import "gallery";
 @import "footer";
-@import "resets";
